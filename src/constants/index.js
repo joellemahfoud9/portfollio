@@ -52,7 +52,7 @@ export const PROJECTS = [
   {
     id: 2,
     name: "Portfollio ",
-    githubLink: "https://github.com/joellemahfoud9/portfolio",
+    githubLink: "https://github.com/joellemahfoud9/portfollio",
     description: "Portfollio Website .",
     photos: [photo11, photo12, photo13, photo14, photo15],
     photoDescriptions: [
