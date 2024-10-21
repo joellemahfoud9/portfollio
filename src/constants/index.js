@@ -4,7 +4,7 @@ export const CONTACT = {
   phoneNo: "+963-984199366",
   email: "joellemahfoud99@gmail.com",
 };
-
+e
 export const PROJECTS = [
   {
     id: 1,
@@ -12,13 +12,13 @@ export const PROJECTS = [
     githubLink: 'https://github.com/joellemahfoud9/Admin-Dahboard',
     description: 'Admin-Dashboard website.',
     photos: [
-      '/repo-name/src/assets/projects/Admin-Dashboard/Overviewpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/productpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/userpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/orderpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/Createproductpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/createuserpage.jpg',
-      '/repo-name/src/assets/projects/Admin-Dashboard/settingspage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/Overviewpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/productpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/userpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/orderpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/Createproductpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/createuserpage.jpg',
+      '/portfollio/src/assets/projects/Admin-Dashboard/settingspage.jpg',
     ],
     photoDescriptions: [
       'This is the first page, Overview Page.',
@@ -36,11 +36,11 @@ export const PROJECTS = [
     githubLink: 'https://github.com/joellemahfoud9/portfolio',
     description: 'Portfolio Website.',
     photos: [
-      '/repo-name/src/assets/projects/Portfollio/Hero.jpg',
-      '/repo-name/src/assets/projects/Portfollio/nav.jpg',
-      '/repo-name/src/assets/projects/Portfollio/studycase.jpg',
-      '/repo-name/src/assets/projects/Portfollio/projects.jpg',
-      '/repo-name/src/assets/projects/Portfollio/contant.jpg',
+      '/portfollio/src/assets/projects/Portfollio/Hero.jpg',
+      '/portfollio/src/assets/projects/Portfollio/nav.jpg',
+      '/portfollio/src/assets/projects/Portfollio/studycase.jpg',
+      '/portfollio/src/assets/projects/Portfollio/projects.jpg',
+      '/portfollio/src/assets/projects/Portfollio/contant.jpg',
     ],
     photoDescriptions: [
       'This is the first section in the portfolio.',
