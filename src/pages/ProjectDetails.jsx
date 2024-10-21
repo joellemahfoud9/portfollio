@@ -52,7 +52,9 @@ const ProjectDetails = () => {
             >
               <div className="w-full h-48 sm:h-56 lg:h-64 relative">
                 <img
-                  src={process.env.PUBLIC_URL + photo}
+                  src={
+                    //process.env.PUBLIC_URL +
+                     photo}
                   alt={`${project.name} Screenshot ${index + 1}`}
                   className="w-full h-full object-contain "
                 />
