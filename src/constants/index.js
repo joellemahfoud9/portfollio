@@ -1,16 +1,16 @@
-import photo01 from "../assets/projects/Admin-Dashboard/Overviewpage.jpg";
-import photo02 from "../assets/projects/Admin-Dashboard/productpage.jpg";
-import photo03 from "../assets/projects/Admin-Dashboard/userpage.jpg";
-import photo04 from "../assets/projects/Admin-Dashboard/orderpage.jpg";
-import photo05 from "../assets/projects/Admin-Dashboard/Createproductpage.jpg";
-import photo06 from "../assets/projects/Admin-Dashboard/createuserpage.jpg";
-import photo07 from "../assets/projects/Admin-Dashboard/settingspage.jpg";
+import photo01 from "/assets/projects/Admin-Dashboard/Overviewpage.jpg";
+import photo02 from "/assets/projects/Admin-Dashboard/productpage.jpg";
+import photo03 from "/assets/projects/Admin-Dashboard/userpage.jpg";
+import photo04 from "/assets/projects/Admin-Dashboard/orderpage.jpg";
+import photo05 from "/assets/projects/Admin-Dashboard/Createproductpage.jpg";
+import photo06 from "/assets/projects/Admin-Dashboard/createuserpage.jpg";
+import photo07 from "/assets/projects/Admin-Dashboard/settingspage.jpg";
 
-import photo11 from "../assets/projects/Portfollio/Hero.jpg";
-import photo12 from "../assets/projects/Portfollio/nav.jpg";
-import photo13 from "../assets/projects/Portfollio/studycase.jpg";
-import photo14 from "../assets/projects/Portfollio/projects.jpg";
-import photo15 from "../assets/projects/Portfollio/contant.jpg";
+import photo11 from "/assets/projects/Portfollio/Hero.jpg";
+import photo12 from "/assets/projects/Portfollio/nav.jpg";
+import photo13 from "/assets/projects/Portfollio/studycase.jpg";
+import photo14 from "/assets/projects/Portfollio/projects.jpg";
+import photo15 from "/assets/projects/Portfollio/contant.jpg";
 
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
