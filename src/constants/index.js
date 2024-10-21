@@ -1,3 +1,17 @@
+import photo01 from "./src/assets/projects/Admin-Dashboard/Overviewpage.jpg";
+import photo02 from "./src/assets/projects/Admin-Dashboard/productpage.jpg";
+import photo03 from "./src/assets/projects/Admin-Dashboard/userpage.jpg";
+import photo04 from "./src/assets/projects/Admin-Dashboard/orderpage.jpg";
+import photo05 from "./src/assets/projects/Admin-Dashboard/Createproductpage.jpg";
+import photo06 from "./src/assets/projects/Admin-Dashboard/createuserpage.jpg";
+import photo07 from "./src/assets/projects/Admin-Dashboard/settingspage.jpg";
+
+import photo11 from "./src/assets/projects/Portfollio/Hero.jpg";
+import photo12 from "./src/assets/projects/Portfollio/nav.jpg";
+import photo13 from "./src/assets/projects/Portfollio/studycase.jpg";
+import photo14 from "./src/assets/projects/Portfollio/projects.jpg";
+import photo15 from "./src/assets/projects/Portfollio/contant.jpg";
+
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
 export const CONTACT = {
@@ -6,52 +20,37 @@ export const CONTACT = {
   email: "joellemahfoud99@gmail.com",
 };
 
-  export const PROJECTS = [
+export const PROJECTS = [
   {
-    id:1,
-    name: 'Admin_Dashboard',
-    githubLink: 'https://github.com/joellemahfoud9/Admin-Dahboard',
-    description: ' Admin-Dashbord website .',
-    photos: [
-      './src/assets/projects/Admin-Dashboard/Overviewpage.jpg"' ,
-      './src/assets/projects/Admin-Dashboard/productpage.jpg',
-      './src/assets/projects/Admin-Dashboard/userpage.jpg',
-      './src/assets/projects/Admin-Dashboard/orderpage.jpg',
-      './src/assets/projects/Admin-Dashboard/Createproductpage.jpg',
-      './src/assets/projects/Admin-Dashboard/createuserpage.jpg',
-      './src/assets/projects/Admin-Dashboard/settingspage.jpg',
-    ],
+    id: 1,
+    name: "Admin_Dashboard",
+    githubLink: "https://github.com/joellemahfoud9/Admin-Dahboard",
+    description: " Admin-Dashbord website .",
+    photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
     photoDescriptions: [
-      'This is the first page, Overview Page.',
-      'This page show all the products.',
-      'This page show all the users.',
-      'This page show all the orders.',
-      'In this page you can create a new product.',
-      'In this page you can add a new user.',
-      'This a settings page to show your information.',
+      "This is the first page, Overview Page.",
+      "This page show all the products.",
+      "This page show all the users.",
+      "This page show all the orders.",
+      "In this page you can create a new product.",
+      "In this page you can add a new user.",
+      "This a settings page to show your information.",
     ],
   },
   {
-       id:2,
-      name: 'Portfollio ',
-      githubLink: 'https://github.com/joellemahfoud9/portfolio',
-      description: 'Portfollio Website .',
-      photos: [
-      './src/assets/projects/Portfollio/Hero.jpg',
-      './src/assets/projects/Portfollio/nav.jpg',
-      './src/assets/projects/Portfollio/studycase.jpg',
-      './src/assets/projects/Portfollio/projects.jpg',
-      './src/assets/projects/Portfollio/contant.jpg',
-      ],
-      photoDescriptions: [
-        'This is the first section in the portfollio.',
-        'This is the navbar',
-        'This is studycase section .',
-        'This is  projects section you can show all my projects.',
-        'This is contant section '
-      ],
-    },
-   
+    id: 2,
+    name: "Portfollio ",
+    githubLink: "https://github.com/joellemahfoud9/portfolio",
+    description: "Portfollio Website .",
+    photos: [photo11, photo12, photo13, photo14, photo15],
+    photoDescriptions: [
+      "This is the first section in the portfollio.",
+      "This is the navbar",
+      "This is studycase section .",
+      "This is  projects section you can show all my projects.",
+      "This is contant section ",
+    ],
+  },
 ];
 
 // src/constants/caseStudies.js
