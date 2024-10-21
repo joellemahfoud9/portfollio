@@ -17,7 +17,7 @@ import photo17 from "/projects/ecommere/banner2.jpg";
 import photo18 from "/projects/ecommere/banner3.jpg";
 import photo19 from "/projects/ecommere/newarrivals.jpg";
 import photo20 from "/projects/ecommere/newarrivals2.jpg";
-import photo21 from "/projects/ecommere/specailoffer.jpg";
+import photo21 from "/projects/ecommere/specialoffer.jpg";
 import photo22 from "/projects/ecommere/footer.jpg";
 import photo23 from "/projects/ecommere/footer2.jpg";
 import photo24 from "/projects/ecommere/about.jpg";
