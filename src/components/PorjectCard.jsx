@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className=" rounded-lg shadow-lg overflow-hidden transition-colors text-white border border-[#64ffda]">
       <img
-        src={project.photos[0]}
+        src={process.env.PUBLIC_URL +project.photos[0]}
         alt={project.name}
         className="w-full h-48 object-cover"
       />

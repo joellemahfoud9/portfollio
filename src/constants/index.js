@@ -1,56 +1,60 @@
-export const HERO_CONTENT = `I’m a fourth-year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 year of hands-on experience.`
+export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
 export const CONTACT = {
-  phoneNo: "+963-984199366",
+  // address: "767 Fifth Avenue, New York, NY 10153 ",
+  phoneNo: "+963-984199366 ",
   email: "joellemahfoud99@gmail.com",
 };
 
-export const PROJECTS = [
+  export const PROJECTS = [
   {
-    id: 1,
+    id:1,
     name: 'Admin_Dashboard',
     githubLink: 'https://github.com/joellemahfoud9/Admin-Dahboard',
-    description: 'Admin-Dashboard website.',
+    description: ' Admin-Dashbord website .',
     photos: [
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/Overviewpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/productpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/userpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/orderpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/Createproductpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/createuserpage.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Admin-Dashboard/settingspage.jpg`,
+      './src/assets/projects/Admin-Dashboard/Overviewpage.jpg"' ,
+      './src/assets/projects/Admin-Dashboard/productpage.jpg',
+      './src/assets/projects/Admin-Dashboard/userpage.jpg',
+      './src/assets/projects/Admin-Dashboard/orderpage.jpg',
+      './src/assets/projects/Admin-Dashboard/Createproductpage.jpg',
+      './src/assets/projects/Admin-Dashboard/createuserpage.jpg',
+      './src/assets/projects/Admin-Dashboard/settingspage.jpg',
     ],
     photoDescriptions: [
       'This is the first page, Overview Page.',
-      'This page shows all the products.',
-      'This page shows all the users.',
-      'This page shows all the orders.',
-      'In this page, you can create a new product.',
-      'In this page, you can add a new user.',
-      'This is a settings page to show your information.',
+      'This page show all the products.',
+      'This page show all the users.',
+      'This page show all the orders.',
+      'In this page you can create a new product.',
+      'In this page you can add a new user.',
+      'This a settings page to show your information.',
     ],
   },
   {
-    id: 2,
-    name: 'Portfolio',
-    githubLink: 'https://github.com/joellemahfoud9/portfolio',
-    description: 'Portfolio Website.',
-    photos: [
-      `${process.env.PUBLIC_URL}/assets/projects/Portfollio/Hero.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Portfollio/nav.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Portfollio/studycase.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Portfollio/projects.jpg`,
-      `${process.env.PUBLIC_URL}/assets/projects/Portfollio/contant.jpg`,
-    ],
-    photoDescriptions: [
-      'This is the first section in the portfolio.',
-      'This is the navbar.',
-      'This is the study case section.',
-      'This is the projects section where you can see all my projects.',
-      'This is the contact section.',
-    ],
-  },
+       id:2,
+      name: 'Portfollio ',
+      githubLink: 'https://github.com/joellemahfoud9/portfolio',
+      description: 'Portfollio Website .',
+      photos: [
+      './src/assets/projects/Portfollio/Hero.jpg',
+      './src/assets/projects/Portfollio/nav.jpg',
+      './src/assets/projects/Portfollio/studycase.jpg',
+      './src/assets/projects/Portfollio/projects.jpg',
+      './src/assets/projects/Portfollio/contant.jpg',
+      ],
+      photoDescriptions: [
+        'This is the first section in the portfollio.',
+        'This is the navbar',
+        'This is studycase section .',
+        'This is  projects section you can show all my projects.',
+        'This is contant section '
+      ],
+    },
+   
 ];
+
+// src/constants/caseStudies.js
 
 export const CASE_STUDIES = [
   {
@@ -84,4 +88,5 @@ export const CASE_STUDIES = [
       },
     ],
   },
+  // Add more case studies as needed
 ];
