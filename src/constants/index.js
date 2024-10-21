@@ -5,7 +5,7 @@ export const CONTACT = {
   phoneNo: "+963-984199366 ",
   email: "joellemahfoud99@gmail.com",
 };
- import photo1 from "/src/assets/projects/Admin-Dashboard/Overviewpage.jpg";
+ 
   export const PROJECTS = [
   {
     id:1,
@@ -13,7 +13,7 @@ export const CONTACT = {
     githubLink: 'https://github.com/joellemahfoud9/Admin-Dahboard',
     description: ' Admin-Dashbord website .',
     photos: [
-      photo1,
+     '/src/assets/projects/Admin-Dashboard/Overviewpage.jpg' ,
       '/src/assets/projects/Admin-Dashboard/productpage.jpg',
       '/src/assets/projects/Admin-Dashboard/userpage.jpg',
       '/src/assets/projects/Admin-Dashboard/orderpage.jpg',
