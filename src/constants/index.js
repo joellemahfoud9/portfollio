@@ -13,7 +13,7 @@ export const CONTACT = {
     githubLink: 'https://github.com/joellemahfoud9/Admin-Dahboard',
     description: ' Admin-Dashbord website .',
     photos: [
-      {photo1},
+      photo1,
       '/src/assets/projects/Admin-Dashboard/productpage.jpg',
       '/src/assets/projects/Admin-Dashboard/userpage.jpg',
       '/src/assets/projects/Admin-Dashboard/orderpage.jpg',
