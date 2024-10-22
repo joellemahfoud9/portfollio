@@ -36,7 +36,7 @@ export const PROJECTS = [
   {
     id: 1,
     name: "Admin_Dashboard",
-    githubLink: "https://github.com/joellemahfoud9/Admin_Dahboard",
+    githubLink: "https://github.com/joellemahfoud9/Admin_Dashboard",
     description: " Admin-Dashbord website .",
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
     photoDescriptions: [
