@@ -12,17 +12,22 @@ import photo13 from "/projects/Portfollio/studycase.jpg";
 import photo14 from "/projects/Portfollio/projects.jpg";
 import photo15 from "/projects/Portfollio/contant.jpg";
 
-import photo16 from "/projects/ecommere/Banner1.jpg";
-import photo17 from "/projects/ecommere/banner2.jpg";
-import photo18 from "/projects/ecommere/banner3.jpg";
-import photo19 from "/projects/ecommere/newarrivals.jpg";
-import photo20 from "/projects/ecommere/newarrivals2.jpg";
-import photo21 from "/projects/ecommere/specialoffer.jpg";
-import photo22 from "/projects/ecommere/footer.jpg";
-import photo23 from "/projects/ecommere/footer2.jpg";
-import photo24 from "/projects/ecommere/about.jpg";
-import photo25 from "/projects/ecommere/content1.jpg";
-import photo26 from "/projects/ecommere/contant2.jpg";
+import photo16 from "/projects/Ecommere/rigesterPage.jpg";
+import photo17 from "/projects/Ecommere/loginPage.jpg";
+import photo18 from "/projects/Ecommere/banner1.jpg";
+import photo19 from "/projects/Ecommere/banner2.jpg";
+import photo20 from "/projects/Ecommere/banner3.jpg";
+import photo21 from "/projects/Ecommere/newarrivals.jpg";
+import photo22 from "/projects/Ecommere/newarrivals2.jpg";
+import photo23 from "/projects/Ecommere/specialoffer.jpg";
+import photo24 from "/projects/Ecommere/footer.jpg";
+import photo25 from "/projects/Ecommere/footer2.jpg";
+import photo26 from "/projects/Ecommere/shopPage.jpg";
+import photo27 from "/projects/Ecommere/productDetails.jpg";
+import photo28 from "/projects/Ecommere/productDetails2.jpg";
+import photo29 from "/projects/Ecommere/about.jpg";
+import photo30 from "/projects/Ecommere/contant.jpg";
+import photo31 from "/projects/Ecommere/contant2.jpg";
 
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
@@ -35,57 +40,64 @@ export const CONTACT = {
 export const PROJECTS = [
   {
     id: 1,
+    name: "E-commerce Website ",
+    githubLink: "",
+    description: "In Process.",
+    photos: [photo16,photo17, photo18, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
+    photoDescriptions: [
+      "Creact an Account",
+      "Login",
+      "This is the banner they can move into 3 photos",
+      "Banner 2 ",
+      "Banner 3 ",
+      " New Arrivals Section ",
+      " Drop down menu ",
+      " Special Offer Section ",
+      "Footer",
+      "Footer ",
+      "Shop Page",
+      "Product Details",
+      "Product Details",
+      "About Page",
+      "Contant Page",
+      "Contant Page",
+    ],
+  },
+  
+  {
+    id: 2,
     name: "Admin_Dashboard",
     githubLink: "https://github.com/joellemahfoud9/Admin_Dashboard",
     description: " Admin-Dashbord website .",
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
     photoDescriptions: [
-      "This is the first page, Overview Page.",
-      "This page show all the products.",
-      "This page show all the users.",
-      "This page show all the orders.",
-      "In this page you can create a new product.",
-      "In this page you can add a new user.",
-      "This a settings page to show your information.",
+      " Overview Page",
+      " Products Page",
+      "Users Page",
+      "Orders Page",
+      "New Product Page",
+      " New User Page",
+      " Settings Page",
     ],
   },
+  
   {
-    id: 2,
+    id: 3,
     name: "Portfollio ",
     githubLink: "https://github.com/joellemahfoud9/portfollio",
     description: "Portfollio Website .",
     photos: [photo11, photo12, photo13, photo14, photo15],
     photoDescriptions: [
-      "This is the first section in the portfollio.",
-      "This is the navbar",
-      "This is studycase section .",
-      "This is  projects section you can show all my projects.",
-      "This is contant section ",
-    ],
-  },
-  {
-    id: 3,
-    name: "E-commerce Website ",
-    githubLink: "",
-    description: "In Process.",
-    photos: [photo16, photo17, photo18, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26],
-    photoDescriptions: [
-      "This is the banner they can move into 3 photos .",
-      "Banner 2 .",
-      "Banner 3 .",
-      "The New Arrivals section .  ",
-      "The drop down menu ",
-      "This is Special Offer section .",
-      "This is  Footer.",
-      "Footer .",
-      "This is About section .",
-      "This is contant section.",
-      "The contant section",
+     " Hero Section",
+      "Navbar",
+      " Study Case Section ",
+      " Projects Section ",
+      "Contant Section ",
     ],
   },
 ];
 
-// src/constants/caseStudies.js
+
 
 export const CASE_STUDIES = [
   {
