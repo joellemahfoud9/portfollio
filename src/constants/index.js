@@ -44,24 +44,6 @@ export const PROJECTS = [
     githubLink: "",
     description: "In Process.",
     photos: [photo16,photo17, photo18, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
-    photoDescriptions: [
-      "Creact an Account",
-      "Login",
-      "This is the banner they can move into 3 photos",
-      "Banner 2 ",
-      "Banner 3 ",
-      " New Arrivals Section ",
-      " Drop down menu ",
-      " Special Offer Section ",
-      "Footer",
-      "Footer ",
-      "Shop Page",
-      "Product Details",
-      "Product Details",
-      "About Page",
-      "Contant Page",
-      "Contant Page",
-    ],
   },
   
   {
@@ -70,31 +52,15 @@ export const PROJECTS = [
     githubLink: "https://github.com/joellemahfoud9/Admin_Dashboard",
     description: " Admin-Dashbord website .",
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
-    photoDescriptions: [
-      " Overview Page",
-      " Products Page",
-      "Users Page",
-      "Orders Page",
-      "New Product Page",
-      " New User Page",
-      " Settings Page",
-    ],
   },
   
-  {
-    id: 3,
-    name: "Portfollio ",
-    githubLink: "https://github.com/joellemahfoud9/portfollio",
-    description: "Portfollio Website .",
-    photos: [photo11, photo12, photo13, photo14, photo15],
-    photoDescriptions: [
-     " Hero Section",
-      "Navbar",
-      " Study Case Section ",
-      " Projects Section ",
-      "Contant Section ",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   name: "Portfolio ",
+  //   githubLink: "https://github.com/joellemahfoud9/portfollio",
+  //   description: "Portfollio Website .",
+  //   photos: [photo11, photo12, photo13, photo14, photo15],
+  // },
 ];
 
 

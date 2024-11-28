@@ -15,17 +15,13 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex space-x-6 text-3xl">
           
-          <Link to="study" spy={true} smooth={true} offset={-100} duration={500}
+          <Link to="aboutme" spy={true} smooth={true} offset={-100} duration={500}
            className="cursor-pointer text-[#64ffda]" >
-            Study Case</Link>
+            About Me</Link>
 
           <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}
            className=" cursor-pointer text-[#64ffda]"> 
            Projects</Link>
-{/* 
-           <Link to="technologies" spy={true} smooth={true} offset={-100} duration={500}
-           className="cursor-pointer text-[#64ffda]" >
-            Technology</Link> */}
 
          <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}
           className="cursor-pointer text-[#64ffda]" >
@@ -42,9 +38,9 @@ const Navbar = () => {
       {/* //bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-transparent */}
       {isOpen && (
         <div className="md:hidden flex flex-col space-y-4 mt-4">
-        <Link to="study" spy={true} smooth={true} offset={-100} duration={500}
+        <Link to="aboutme" spy={true} smooth={true} offset={-100} duration={500}
            className="cursor-pointer text-[#64ffda] " >
-           Study Case</Link>
+           About Me</Link>
 
           <Link to="projects" spy={true} smooth={true} offset={-100} duration={500}
            className=" cursor-pointer text-[#64ffda]"> 

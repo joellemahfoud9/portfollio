@@ -3,7 +3,7 @@ import Contant from "../components/Contant"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Projects from "../components/Projects"
-import CaseStudy from "../components/study"
+import AboutMe from "../components/AboutMe"
 
 const HomePage = () => {
   return (
@@ -16,7 +16,7 @@ const HomePage = () => {
       <div className=" mx-auto px-9">
       <Navbar/>
       <Hero/>
-      <CaseStudy/>
+      <AboutMe/>
       <Projects/>
       <Contant/>
     </div>

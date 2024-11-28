@@ -48,7 +48,7 @@ const ProjectDetails = () => {
           {project.photos.map((photo, index) => (
             <div
               key={index}
-              className="flex flex-col rounded-lg overflow-hidden shadow-lg border border-[#64ffda] bg-[#112240]"
+              className="flex flex-col rounded-lg overflow-hidden shadow-lg "
             >
               <div className="w-full h-48 sm:h-56 lg:h-64 relative">
                 <img
@@ -59,7 +59,6 @@ const ProjectDetails = () => {
                   className="w-full h-full object-contain "
                 />
               </div>
-              <p className="p-4 text-sm sm:text-base">{project.photoDescriptions[index]}</p>
             </div>
           ))}
         </div>
