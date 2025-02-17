@@ -6,11 +6,10 @@ import photo05 from "/projects/Admin-Dashboard/Createproductpage.jpg";
 import photo06 from "/projects/Admin-Dashboard/createuserpage.jpg";
 import photo07 from "/projects/Admin-Dashboard/settingspage.jpg";
 
-import photo11 from "/projects/Portfollio/Hero.jpg";
-import photo12 from "/projects/Portfollio/nav.jpg";
-import photo13 from "/projects/Portfollio/studycase.jpg";
-import photo14 from "/projects/Portfollio/projects.jpg";
-import photo15 from "/projects/Portfollio/contant.jpg";
+
+import photo11 from "/projects/Daawa/MainPage.jpg";
+import photo12 from "/projects/Daawa/LoginPage.jpg";
+
 
 import photo16 from "/projects/Ecommere/rigesterPage.jpg";
 import photo17 from "/projects/Ecommere/loginPage.jpg";
@@ -32,7 +31,6 @@ import photo31 from "/projects/Ecommere/contant2.jpg";
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
 export const CONTACT = {
-  // address: "767 Fifth Avenue, New York, NY 10153 ",
   phoneNo: "+963-984199366 ",
   email: "joellemahfoud99@gmail.com",
 };
@@ -43,7 +41,7 @@ export const PROJECTS = [
     name: "E-commerce Website ",
     githubLink: "",
     description: "In Process.",
-    photos: [photo16,photo17, photo18, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
+    photos: [photo18,photo17, photo16, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
   },
   
   {
@@ -54,13 +52,13 @@ export const PROJECTS = [
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
   },
   
-  // {
-  //   id: 3,
-  //   name: "Portfolio ",
-  //   githubLink: "https://github.com/joellemahfoud9/portfollio",
-  //   description: "Portfollio Website .",
-  //   photos: [photo11, photo12, photo13, photo14, photo15],
-  // },
+  {
+    id: 3,
+    name: "Daawa ",
+    githubLink: "https://github.com/joellemahfoud9/Daawa-Reactjs",
+    description: "Event Management System.",
+    photos: [photo11, photo12],
+  },
 ];
 
 
