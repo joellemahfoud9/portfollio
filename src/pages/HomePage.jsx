@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar"
 import Projects from "../components/Projects"
 import AboutMe from "../components/AboutMe"
 
+
 const HomePage = () => {
   return (
     

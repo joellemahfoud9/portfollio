@@ -27,6 +27,7 @@ import photo28 from "/projects/Ecommere/productDetails2.jpg";
 import photo29 from "/projects/Ecommere/about.jpg";
 import photo30 from "/projects/Ecommere/contant.jpg";
 import photo31 from "/projects/Ecommere/contant2.jpg";
+import photo32 from "/projects/Monthly-Planner/{BDC43C0F-D5A8-4E43-B4EF-42130E3488E8}.png.jpg";
 
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
@@ -36,8 +37,17 @@ export const CONTACT = {
 };
 
 export const PROJECTS = [
+
   {
     id: 1,
+    name: "Daawa ",
+    githubLink: "https://daawa.vercel.app/",
+    description: "Event Management System.",
+    photos: [photo11, photo12],
+  },
+
+  {
+    id: 2,
     name: "E-commerce Website ",
     githubLink: "",
     description: "In Process.",
@@ -45,23 +55,24 @@ export const PROJECTS = [
   },
   
   {
-    id: 2,
+    id: 3,
     name: "Admin_Dashboard",
     githubLink: "https://github.com/joellemahfoud9/Admin_Dashboard",
     description: " Admin-Dashbord website .",
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
   },
-  
   {
-    id: 3,
-    name: "Daawa ",
-    githubLink: "https://github.com/joellemahfoud9/Daawa-Reactjs",
-    description: "Event Management System.",
-    photos: [photo11, photo12],
+    id: 4,
+    name: "Monthly Planner",
+    githubLink: "https://joellemahfoud9.github.io/Monthly_Planner/",
+    description: `simple monthly planner with sections for weekly days, top priorities ,and notes.`,
+    photos: [photo32],
   },
+  
+
+ 
+
 ];
-
-
 
 export const CASE_STUDIES = [
   {
