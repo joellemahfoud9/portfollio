@@ -41,31 +41,31 @@ export const PROJECTS = [
   {
     id: 1,
     name: "Daawa ",
-    githubLink: "https://daawa.vercel.app/",
-    description: "Event Management System.",
+    link: "https://daawa.vercel.app/",
+    description: "Daawa is an all-in-one event management system that simplifies event planning by offering salon and catering services. With customizable collections, you can choose from a wide range of services to fit your needs. The user-friendly dashboard lets you easily manage users, businesses, and restaurant dishes and more, while also tracking the busy hours of each business in real time. Daawa also features categorized collections for quick service selection, and manage schedules effectively.",
     photos: [photo11, photo12],
   },
 
   {
     id: 2,
     name: "E-commerce Website ",
-    githubLink: "",
-    description: "In Process.",
+    link: "",
+    description: "e-commerce website offers a seamless shopping experience, providing a wide range of products across various categories. From electronics and fashion to home goods and accessories, customers can easily browse, compare, and purchase items with just a few clicks.our platform ensures a smooth and convenient shopping journey.",
     photos: [photo18,photo17, photo16, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
   },
   
   {
     id: 3,
     name: "Admin_Dashboard",
-    githubLink: "https://github.com/joellemahfoud9/Admin_Dashboard",
-    description: " Admin-Dashbord website .",
+    link: "https://github.com/joellemahfoud9/Admin_Dashboard",
+    description: " Admin Dashboard is a comprehensive tool designed for easy and efficient management of your  services. It allows administrators to manage users, businesses all from one centralized location. You can update business availability, and maintain control over service offerings. The dashboard also includes categorized collections for quick access to services and a visual graph to monitor availability, making scheduling and coordination seamless and streamlined for all events.",
     photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
   },
   {
     id: 4,
     name: "Monthly Planner",
-    githubLink: "https://joellemahfoud9.github.io/Monthly_Planner/",
-    description: `simple monthly planner with sections for weekly days, top priorities ,and notes.`,
+    link: "https://joellemahfoud9.github.io/Monthly_Planner/",
+    description: `This website is a simple monthly planner with sections for weekly days, top priorities ,and time allocation notes. It includes a "Clear All" option for easy reset. Perfect for organizing tasks and managing time effectively.`,
     photos: [photo32],
   },
   
