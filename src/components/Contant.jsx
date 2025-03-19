@@ -9,8 +9,8 @@ const Contant = () => {
      {/* <div className="relative h-full w-full bg-slate-950"><div className="absolute bottom-0 left-[-20%] right-0 top-[10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div> */}
       <h1 className=" py-10 text-center text-4xl">Contant Us</h1>
       <div className="text-center tracking-tighter ">
-        <p className=" ">{CONTACT.phoneNo}</p>
-        <a  className="border-b ">{CONTACT.email}</a>
+        <p className="text-xl ">{CONTACT.phoneNo}</p>
+        <a  className="border-b text-xl ">{CONTACT.email}</a>
         <div className="m-11 flex items-center justify-center gap-6 text-5xl">
 
         <a

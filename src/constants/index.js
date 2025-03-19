@@ -42,31 +42,30 @@ export const PROJECTS = [
     id: 1,
     name: "Daawa ",
     link: "https://daawa.vercel.app/",
-    description: "Daawa is an all-in-one event management system that simplifies event planning by offering salon and catering services. With customizable collections, you can choose from a wide range of services to fit your needs. The user-friendly dashboard lets you easily manage users, businesses, and restaurant dishes and more, while also tracking the busy hours of each business in real time. Daawa also features categorized collections for quick service selection, and manage schedules effectively.",
+    description: "Daawa is an all-in-one event management system built with React.js, TypeScript, and Tailwind CSS, designed to simplify event planning by integrating salon and catering services into a single platform. It features a user-friendly dashboard for managing users, businesses, restaurant dishes, and more, with real-time tracking of business busy hours for optimal scheduling. The platform offers customizable and categorized service collections for quick selection, along with role-based access for users and admins to ensure secure and efficient management. Daawa combines powerful functionality with a modern, responsive design.",
     photos: [photo11, photo12],
   },
-
+  
+  // {
+  //   id: 3,
+  //   name: "Admin_Dashboard",
+  //   link: "https://github.com/joellemahfoud9/Admin_Dashboard",
+  //   description: " Admin Dashboard is a comprehensive tool designed for easy and efficient management of your  services. It allows administrators to manage users, businesses all from one centralized location. You can update business availability, and maintain control over service offerings. The dashboard also includes categorized collections for quick access to services and a visual graph to monitor availability, making scheduling and coordination seamless and streamlined for all events.",
+  //   photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
+  // },
   {
     id: 2,
+    name: "Monthly Planner",
+    link: "https://joellemahfoud9.github.io/Monthly_Planner/",
+    description: `This project is a monthly planner web application designed to help users organize tasks, prioritize goals, and manage time effectively. Featuring sections for weekly days, top priorities, and time allocation notes, it provides a structured overview of monthly plans. Users can input, update, and track tasks, with all data saved using local storage for seamless access across sessions. The app includes a "Clear All" button for quick resets, ensuring a smooth user experience. Built with React, TypeScript, and Tailwind CSS.`,
+    photos: [photo32],
+  },
+  {
+    id: 3,
     name: "E-commerce Website ",
     link: "",
     description: "e-commerce website offers a seamless shopping experience, providing a wide range of products across various categories. From electronics and fashion to home goods and accessories, customers can easily browse, compare, and purchase items with just a few clicks.our platform ensures a smooth and convenient shopping journey.",
     photos: [photo18,photo17, photo16, photo19, photo20,photo21,photo22,photo23,photo24,photo25,photo26,photo27,photo28,photo29,photo30,photo31],
-  },
-  
-  {
-    id: 3,
-    name: "Admin_Dashboard",
-    link: "https://github.com/joellemahfoud9/Admin_Dashboard",
-    description: " Admin Dashboard is a comprehensive tool designed for easy and efficient management of your  services. It allows administrators to manage users, businesses all from one centralized location. You can update business availability, and maintain control over service offerings. The dashboard also includes categorized collections for quick access to services and a visual graph to monitor availability, making scheduling and coordination seamless and streamlined for all events.",
-    photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
-  },
-  {
-    id: 4,
-    name: "Monthly Planner",
-    link: "https://joellemahfoud9.github.io/Monthly_Planner/",
-    description: `This website is a simple monthly planner with sections for weekly days, top priorities ,and time allocation notes. It includes a "Clear All" option for easy reset. Perfect for organizing tasks and managing time effectively.`,
-    photos: [photo32],
   },
   
 

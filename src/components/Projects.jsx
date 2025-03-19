@@ -116,6 +116,14 @@ const Projects = () => {
 
   return (
     <section id="projects" className="relative py-20 " ref={ref}>
+      <motion.h2
+              className="text-4xl font-bold mb-9 text-center"
+              initial="hidden"
+              animate="visible"
+              variants={containerVariants}
+            >
+             PROJECTS
+            </motion.h2>
       <motion.div
         initial="hidden"
         animate={controls}
