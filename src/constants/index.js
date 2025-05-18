@@ -28,6 +28,7 @@ import photo29 from "/projects/Ecommere/about.jpg";
 import photo30 from "/projects/Ecommere/contant.jpg";
 import photo31 from "/projects/Ecommere/contant2.jpg";
 import photo32 from "/projects/Monthly-Planner/{BDC43C0F-D5A8-4E43-B4EF-42130E3488E8}.png.jpg";
+import photo33 from "projects/ITHUB (2).jpg";
 
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
@@ -46,22 +47,22 @@ export const PROJECTS = [
     photos: [photo11, photo12],
   },
   
-  // {
-  //   id: 3,
-  //   name: "Admin_Dashboard",
-  //   link: "https://github.com/joellemahfoud9/Admin_Dashboard",
-  //   description: " Admin Dashboard is a comprehensive tool designed for easy and efficient management of your  services. It allows administrators to manage users, businesses all from one centralized location. You can update business availability, and maintain control over service offerings. The dashboard also includes categorized collections for quick access to services and a visual graph to monitor availability, making scheduling and coordination seamless and streamlined for all events.",
-  //   photos: [photo01, photo02, photo03, photo04, photo05, photo06, photo07],
-  // },
   {
     id: 2,
+    name: "ITHub",
+    link: "",
+    description:"I developed a comprehensive university dashboard enabling student group management, exam scheduling, and project collaboration for Damascus University's Information Technology Engineering department. Built with React and TypeScript using Tailwind CSS for styling, the application features a responsive interface with custom hooks for API management (useFetch) and authentication (useAuth), while leveraging React Query for efficient data fetching and Recoil/Jotai for state management. The system integrates with a Node.js backend via REST API, implementing JWT authentication and supporting file sharing, task grading with instructor feedback, and project archiving. Performance optimizations include code splitting, memoization, and efficient caching strategies to ensure smooth user experience across all devices.",
+    photos: [photo33],
+  },
+  {
+    id: 3,
     name: "Monthly Planner",
     link: "https://joellemahfoud9.github.io/Monthly_Planner/",
     description: `This project is a monthly planner web application designed to help users organize tasks, prioritize goals, and manage time effectively. Featuring sections for weekly days, top priorities, and time allocation notes, it provides a structured overview of monthly plans. Users can input, update, and track tasks, with all data saved using local storage for seamless access across sessions. The app includes a "Clear All" button for quick resets, ensuring a smooth user experience. Built with React, TypeScript, and Tailwind CSS.`,
     photos: [photo32],
   },
   {
-    id: 3,
+    id: 4,
     name: "E-commerce Website ",
     link: "",
     description: "e-commerce website offers a seamless shopping experience, providing a wide range of products across various categories. From electronics and fashion to home goods and accessories, customers can easily browse, compare, and purchase items with just a few clicks.our platform ensures a smooth and convenient shopping journey.",
