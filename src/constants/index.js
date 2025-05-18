@@ -28,7 +28,7 @@ import photo29 from "/projects/Ecommere/about.jpg";
 import photo30 from "/projects/Ecommere/contant.jpg";
 import photo31 from "/projects/Ecommere/contant2.jpg";
 import photo32 from "/projects/Monthly-Planner/{BDC43C0F-D5A8-4E43-B4EF-42130E3488E8}.png.jpg";
-import photo33 from "projects/ITHUB (2).jpg";
+import photo33 from "projects/ITHUB-2.jpg";
 
 export const HERO_CONTENT = `I’m fourth year Information Technology student at Damascus University. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel, MySQL. With 1 years of hands-on experience  .`;
 
